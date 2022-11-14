@@ -11,15 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="/js/smoothScroll.js"></script>
 </head>
 
 <body>
     <div id="interactive-cv">
-    <div class="header">
-        Here is my interactive CV
-    </div> 
-    <div class="flex-container">
+
+    <div class="flex-container"  class="navbar">
         <button onclick="window.location.href='index.html';" class="button">Home</button>
         <div class="dropdown">
             <button class="active" class="dropbtn">My CV</button>
@@ -38,5 +37,36 @@
         <button onclick="window.location.href='contact-page.html';" class="button">Contact&nbsp;me</button>   
         <button onclick="window.location.href='about-me.html';" class="button">About</button>
 </div>
+<div class="header">
+    Here is my interactive CV
+</div> 
+
+<div class="flex-container">
+    <a href="#education">Education</a>
+    <a href="#research-interests">Research Interests</a>
+    <a href="#work-experience">Work Experience</a>
+</div>
+
+<div class="flex-container-vert" id="education">
+    <div class="header2">Education</div>
+    <div>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </div>
+</div>
+
+<div class="flex-container-vert" id="research-interests">
+    <div class="header2">Research-Interests</div>
+    <div>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </div>
+</div>
+
+<div class="flex-container-vert" id="work-experience">
+    <div class="header2">Work Experience</div>
+    <div>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    </div>
+</div>
+
 </div>
 </body>
