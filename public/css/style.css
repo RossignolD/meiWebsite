@@ -14,10 +14,21 @@
     font-family: 'Cormorant Garamond', serif;
     background-color: white;
     color: green;
-    border: .2rem;
+    border: .1rem;
     border-style: solid;
     border-color: black;
-    border-radius: .5=rem;
+    border-radius: .5rem;
+}
+
+.header2{
+  font-size: 2.5rem;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: white;
+  color: green;
+  border: .1rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: .5rem;
 }
 
 .flex-container{
@@ -25,12 +36,25 @@
     flex-direction: row;
     gap: 11rem;
     background-color: magenta;
-    margin-top: 1rem;
+    margin: 1rem;
     font-size: 2rem;
     font-family: 'Noto Sans Symbols', sans-serif;
     border: .2rem;
     border-style: solid;
     border-radius: .5rem;
+}
+
+.flex-container-vert{
+  display: flex;
+  flex-direction: column;
+  gap: 11rem;
+  background-color: magenta;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-family: 'Noto Sans Symbols', sans-serif;
+  border: .2rem;
+  border-style: solid;
+  border-radius: .5rem;
 }
 
 .menu-item, .button{
