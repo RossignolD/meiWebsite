@@ -1,26 +1,47 @@
-#homepage, #cv-pdf, #interactive-cv, #contact-page, #current-projects, #recent-projects, #about-me{
-    background-color: yellow;
+#homepage, #cv-pdf, #interactive-cv, #contact-page, #current-projects, #recent-projects, #about-me {
+  background-color: yellow;
 }
 
-.active{
+.active-button{
   background-color: orange;
   font-size: 2rem;
   border-radius: .5rem;
   font-family: 'Noto Sans Symbols', sans-serif;
   color: white;
 }
-.header{
-    font-size: 4rem;
-    font-family: 'Cormorant Garamond', serif;
-    background-color: white;
-    color: green;
-    border: .1rem;
-    border-style: solid;
-    border-color: black;
-    border-radius: .5rem;
+
+.active{
+  background-color: orange;
+  font-size: 2rem;
+  font-family: 'Noto Sans Symbols', sans-serif;
+  color: white;
+}
+.header {
+  font-size: 4rem;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: white;
+  color: green;
+  border: .1rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: .5rem;
+  margin: 1rem, 0, 1rem, 0;
 }
 
-.header2{
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: yellowgreen
+}
+
+a {
+  text-align: center;
+}
+
+.header2 {
   font-size: 2.5rem;
   font-family: 'Cormorant Garamond', serif;
   background-color: white;
@@ -31,25 +52,22 @@
   border-radius: .5rem;
 }
 
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    gap: 11rem;
-    background-color: magenta;
-    margin: 1rem;
-    font-size: 2rem;
-    font-family: 'Noto Sans Symbols', sans-serif;
-    border: .2rem;
-    border-style: solid;
-    border-radius: .5rem;
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.flex-container-vert{
+.main {
+  background-color: aqua;
+  margin-top: 6rem;
+}
+
+.flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 11rem;
   background-color: magenta;
-  margin-top: 1rem;
   font-size: 2rem;
   font-family: 'Noto Sans Symbols', sans-serif;
   border: .2rem;
@@ -57,67 +75,103 @@
   border-radius: .5rem;
 }
 
-.menu-item, .button{
-    background-color:blue;
-    font-size: 2rem;
-    border-radius: .5rem;
-    font-family: 'Noto Sans Symbols', sans-serif;
-    color: white;
+.flex-container-smalltext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  line-height: 1.85rem;
+  background-color: magenta;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans Symbols', sans-serif;
+  border: .2rem;
+  border-style: solid;
+  border-radius: .5rem;
+  padding: .5rem;
+  margin-top: 1rem;
+}
+.flex-container-vert {
+  display: flex;
+  flex-direction: column;
+  background-color: deepskyblue;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: 'Noto Sans Symbols', sans-serif;
+  border: .2rem;
+  border-style: solid;
+  border-radius: .5rem;
+  padding-top: 5rem;
 }
 
-.button:hover{
-    background-color: green;
+.menu-item, .button {
+  background-color: blue;
+  font-size: 2rem;
+  border-radius: .5rem;
+  font-family: 'Noto Sans Symbols', sans-serif;
+  color: white;
+}
+
+.button:hover {
+  background-color: green;
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: blue;
-    color: white;
-    font-family: 'Noto Sans Symbols', sans-serif;
-    font-size: 2rem;
-    border-radius: .5rem;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: yellow;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    font-family: 'Noto Sans Symbols', sans-serif;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: yellowgreen;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: green;}
-
-#nightingale{
-  position: absolute;
-  bottom:0;
-  right:0
-  ;
+  background-color: blue;
+  color: white;
+  font-family: 'Noto Sans Symbols', sans-serif;
+  font-size: 2rem;
+  border-radius: .5rem;
 }
-#nightingale:hover { transform: scale(5);
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  font-family: 'Noto Sans Symbols', sans-serif;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: yellowgreen;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+#nightingale {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#nightingale:hover {
+  transform: scale(5);
   position: absolute;
   right: 25px;
 }
