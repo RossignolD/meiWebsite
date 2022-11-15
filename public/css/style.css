@@ -1,6 +1,3 @@
-#homepage, #cv-pdf, #interactive-cv, #contact-page, #current-projects, #recent-projects, #about-me {
-  background-color: yellow;
-}
 
 .active-button{
   background-color: orange;
@@ -28,6 +25,17 @@
   margin: 1rem, 0, 1rem, 0;
 }
 
+.header-for-cv {
+  font-size: 4rem;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: white;
+  color: green;
+  border: .1rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: .5rem;
+  margin: 1rem, 0, 1rem, 0;
+}
 
 a:visited {
   color: white;
@@ -46,10 +54,6 @@ a {
   font-family: 'Cormorant Garamond', serif;
   background-color: white;
   color: green;
-  border: .1rem;
-  border-style: solid;
-  border-color: black;
-  border-radius: .5rem;
 }
 
 .navbar {
@@ -59,6 +63,10 @@ a {
 }
 
 .main {
+  background-color: aqua;
+}
+
+.main-for-cv{
   background-color: aqua;
   margin-top: 6rem;
 }
@@ -174,4 +182,13 @@ a {
   transform: scale(5);
   position: absolute;
   right: 25px;
+}
+
+#mei-pic-div{
+  display: flex;
+  justify-content: center;
+}
+
+#mei-pic{
+  width: 15rem;
 }
