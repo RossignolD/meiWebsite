@@ -85,10 +85,11 @@ a {
 }
 
 .flex-container-vert-projects{
-  display: flex;
   flex-direction: column;
   background-color: white;
-  margin: 1rem;
+  margin: .5rem;
+  block-size: fit-content;
+
 }
 
 
@@ -174,9 +175,15 @@ a {
 }
 
 .project{
+  display: block; 
   color:black;
   border-style:none;
-  margin: .5rem;
+  text-align: center;
   font-size: 1.5rem;
   line-height: 1.5rem;
+  margin: .5rem;
+  padding: .5rem;
+}
+#kmm-proof{
+  height: 15rem;
 }
