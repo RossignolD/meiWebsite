@@ -1,19 +1,15 @@
+[class*="active"]{
+  background-color: orange;
+  font-size: 2rem;
+  font-family: 'Noto Sans Symbols', sans-serif;
+  color: white;
+}
 
 .active-button{
-  background-color: orange;
-  font-size: 2rem;
   border-radius: .5rem;
-  font-family: 'Noto Sans Symbols', sans-serif;
-  color: white;
 }
 
-.active{
-  background-color: orange;
-  font-size: 2rem;
-  font-family: 'Noto Sans Symbols', sans-serif;
-  color: white;
-}
-.header {
+[class*="header"]{
   font-size: 4rem;
   font-family: 'Cormorant Garamond', serif;
   background-color: white;
@@ -25,16 +21,10 @@
   margin: 1rem, 0, 1rem, 0;
 }
 
-.header-for-cv {
-  font-size: 4rem;
-  font-family: 'Cormorant Garamond', serif;
-  background-color: white;
-  color: green;
-  border: .1rem;
-  border-style: solid;
-  border-color: black;
-  border-radius: .5rem;
-  margin: 1rem, 0, 1rem, 0;
+.header-for-cv-section {
+  font-size: 2.5rem;
+  border:0;
+  border-radius: 0;
 }
 
 a:visited {
@@ -49,32 +39,26 @@ a {
   text-align: center;
 }
 
-.header2 {
-  font-size: 2.5rem;
-  font-family: 'Cormorant Garamond', serif;
-  background-color: white;
-  color: green;
-}
-
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.main {
+[class*="main"]{
+  border-radius: .5rem;
+  padding: 0.5rem;
   background-color: aqua;
 }
 
 .main-for-cv{
-  background-color: aqua;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
-.flex-container {
+[class*="flex-container"]{
   display: flex;
   flex-direction: row;
-  gap: 11rem;
+  justify-content: space-between;
   background-color: magenta;
   font-size: 2rem;
   font-family: 'Noto Sans Symbols', sans-serif;
@@ -84,34 +68,29 @@ a {
 }
 
 .flex-container-smalltext {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   gap: 4rem;
   line-height: 1.85rem;
-  background-color: magenta;
   font-size: 1.5rem;
-  font-family: 'Noto Sans Symbols', sans-serif;
-  border: .2rem;
-  border-style: solid;
-  border-radius: .5rem;
   padding: .5rem;
   margin-top: 1rem;
 }
-.flex-container-vert {
-  display: flex;
+
+.flex-container-vert-cv{
   flex-direction: column;
   background-color: deepskyblue;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 2rem;
-  font-family: 'Noto Sans Symbols', sans-serif;
-  border: .2rem;
-  border-style: solid;
-  border-radius: .5rem;
   padding-top: 5rem;
 }
+
+.flex-container-vert-projects{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 1rem;
+}
+
 
 .menu-item, .button {
   background-color: blue;
@@ -178,6 +157,7 @@ a {
   bottom: 0;
   right: 0;
 }
+
 #nightingale:hover {
   transform: scale(5);
   position: absolute;
@@ -191,4 +171,12 @@ a {
 
 #mei-pic{
   width: 15rem;
+}
+
+.project{
+  color:black;
+  border-style:none;
+  margin: .5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
