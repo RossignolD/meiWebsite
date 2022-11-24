@@ -9,16 +9,20 @@
   border-radius: .5rem;
 }
 
+body{
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+
+
 [class*="header"]{
   font-size: 4rem;
   font-family: 'Cormorant Garamond', serif;
   background-color: white;
   color: green;
-  border: .1rem;
-  border-style: solid;
-  border-color: black;
-  border-radius: .5rem;
-  margin: 1rem, 0, 1rem, 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .header-for-cv-section {
@@ -49,7 +53,8 @@ a {
   border-radius: .5rem;
   padding: 0.5rem;
   background-color: aqua;
-}
+  text-align: center;
+  font-family: 'Noto Sans Display', sans-serif;}
 
 .main-for-cv{
   margin-top: 5rem;
@@ -92,8 +97,11 @@ a {
 
 }
 
+.flex-container-vert-projects:hover{
+  box-shadow: 0 0 2.5rem white;
+}
 
-.menu-item, .button {
+.menu-item, [class*="button"]{
   background-color: blue;
   font-size: 2rem;
   border-radius: .5rem;
@@ -103,6 +111,12 @@ a {
 
 .button:hover {
   background-color: green;
+}
+
+.button-small{
+  background-color: gold;
+  font-size: 1rem;
+  color: black;
 }
 /* Dropdown Button */
 .dropbtn {
@@ -170,8 +184,40 @@ a {
   justify-content: center;
 }
 
-#mei-pic{
+.hide {
+  display: none;
+  background: rgb(90, 13, 13);
+}
+
+#mei-pic:hover{
+  box-shadow: 0 0 2.5rem magenta;
+}
+
+.myDIV:hover > .hide {
+  display: block;
+  color: white;
+  font-family: 'Noto Sans Display', sans-serif;
+
+}
+
+.myDIV {
+  display: block;
+  text-align: center;
+  margin: auto;
   width: 15rem;
+  font-family: 'Noto Sans Display', sans-serif;
+
+}
+
+#mei-pic{
+  display: block;
+  width: 15rem;
+  margin: 1rem;
+}
+
+#hidemei{
+  display: none;
+  align-content: center;
 }
 
 .project{
@@ -184,6 +230,7 @@ a {
   margin: .5rem;
   padding: .5rem;
 }
+
 #kmm-proof{
   height: 15rem;
 }
