@@ -54,7 +54,10 @@ a {
   padding: 0.5rem;
   background-color: aqua;
   text-align: center;
-  font-family: 'Noto Sans Display', sans-serif;}
+  font-family: 'Noto Sans Display', sans-serif;
+  font-size: 1rem;
+
+}
 
 .main-for-cv{
   margin-top: 5rem;
@@ -174,9 +177,10 @@ a {
 }
 
 #nightingale:hover {
-  transform: scale(5);
+  transform: scale(10);
   position: absolute;
-  right: 25px;
+  right: 50px;
+  bottom: 15px;
 }
 
 #mei-pic-div{
@@ -196,16 +200,19 @@ a {
 .myDIV:hover > .hide {
   display: block;
   color: white;
-  font-family: 'Noto Sans Display', sans-serif;
-  font-size:  1rem;
+  text-align: center;
+  font-family: 'Charis SIL', serif;
+  font-weight: 400;
+  width: 30rem;
+  font-size: 2rem;
 }
 
 .myDIV {
   display: block;
   text-align: center;
   margin: auto;
-  width: 15rem;
-  font-family: 'Noto Sans Display', sans-serif;
+  width: 30rem;
+  font-family:inherit
 
 }
 
@@ -213,6 +220,7 @@ a {
   display: block;
   width: 15rem;
   margin: 1rem;
+  left: 50h%;
 }
 
 #hidemei{
@@ -233,4 +241,9 @@ a {
 
 #kmm-proof{
   height: 15rem;
+}
+
+@font-face {
+  font-family: Charis SIL;
+  src: url();
 }
