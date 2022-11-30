@@ -14,7 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="/js/showMei.js"></script>
+    <script src="/js/meiShowandHide.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -62,8 +62,11 @@
             Welcome to Mei Rose Connor's website!
         </div>
         <div class="flex-container-home">
-            <div> <button onclick="hideMei()"> Click to show/hide the answer.</button></div>
-            <div> <img id="meipic" src="mypic.jpeg" alt="A photograph of Mei Rose Connor"></div>
+            <div>What do you get when you cross a Mathematician, a Linguist, and a Logician?</div>
+            <div> <button onclick="hideMei(); hideAnswer()"> Click to show/hide the answer.</button></div>
+            <div> <img id="meipic" src="mypic.jpeg" alt="A photograph of Mei Rose Connor">
+            </div>
+            <div id="answer">You get Mei Rose Connor!</div>
         </div>
     </div>
 </body>
