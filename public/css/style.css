@@ -183,49 +183,8 @@ a {
   bottom: 15px;
 }
 
-#mei-pic-div{
-  display: flex;
-  justify-content: center;
-}
-
-.hide {
-  display: none;
-  background: rgb(90, 13, 13);
-}
-
-#mei-pic:hover{
+#meipic:hover{
   box-shadow: 0 0 2.5rem magenta;
-}
-
-.myDIV:hover > .hide {
-  display: block;
-  color: white;
-  text-align: center;
-  font-family: 'Charis SIL', serif;
-  font-weight: 400;
-  width: 30rem;
-  font-size: 2rem;
-}
-
-.myDIV {
-  display: block;
-  text-align: center;
-  margin: auto;
-  width: 30rem;
-  font-family:inherit
-
-}
-
-#mei-pic{
-  display: block;
-  width: 15rem;
-  margin: 1rem;
-  left: 50%;
-}
-
-#hidemei{
-  display: none;
-  align-content: center;
 }
 
 .project{
@@ -247,3 +206,5 @@ a {
   font-family: Charis SIL;
   src: url();
 }
+
+
