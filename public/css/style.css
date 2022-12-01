@@ -1,34 +1,35 @@
-[class*="active"]{
-  background-color: orange;
+[class*="active"] {
+  background-color: rgb(134, 162, 64);
   font-size: 2rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
   font-family: 'Noto Sans Symbols', sans-serif;
   color: white;
+  outline-style: none;
 }
 
-.active-button{
-  border-radius: .5rem;
-}
-
-body{
-  background-color: aqua;
-  margin: 0;
+body {
+  background-image: url("/IMG_6724.jpeg");
+  margin: .5;
   padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
-[class*="header"]{
+[class*="header"] {
   font-size: 4rem;
   font-family: 'Cormorant Garamond', serif;
   background-color: white;
-  color: green;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  color: rgb(70, 108, 5);
+  margin: 0;
+  text-align: center;
 }
 
 .header-for-cv-section {
   font-size: 2.5rem;
-  border:0;
-  border-radius: 0;
+  margin: 0;
+  border-style: none;
 }
 
 a:visited {
@@ -36,7 +37,7 @@ a:visited {
 }
 
 a:hover {
-  color: yellowgreen
+  color: black;
 }
 
 a {
@@ -44,35 +45,41 @@ a {
 }
 
 .navbar {
+  background-color: #333;
   position: fixed;
+  /* Set the navbar to fixed position */
   top: 0;
+  /* Position the navbar at the top of the page */
   width: 100%;
+  /* Full width */
+  margin: 0;
 }
 
-[class*="main"]{
-  border-radius: .5rem;
+[class*="main"] {
+  border-radius: 0;
   padding: 0.5rem;
-  background-color: aqua;
+  background-color: inherit;
   text-align: center;
-  font-family: 'Noto Sans Display', sans-serif;
+  font-family: 'Noto Sans Symbols', sans-serif;
   font-size: 1rem;
 
 }
 
-.main-for-cv{
+.main-for-cv {
   margin-top: 5rem;
+  background-image: none;
 }
 
-[class*="flex-container"]{
+[class*="flex-container"] {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background-color: magenta;
+  justify-content: space-around;
+  background-color: #72B9CC;
   font-size: 2rem;
   font-family: 'Noto Sans Symbols', sans-serif;
-  border: .2rem;
-  border-style: solid;
-  border-radius: .5rem;
+  border-style: none;
+  outline-style: none;
+  margin: 0;
 }
 
 .flex-container-smalltext {
@@ -84,15 +91,16 @@ a {
   margin-top: 1rem;
 }
 
-.flex-container-vert-cv{
+.flex-container-vert-cv {
   flex-direction: column;
-  background-color: deepskyblue;
+  background-color: rgb(218, 197, 186);
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 5rem;
 }
 
-.flex-container-vert-projects{
+.flex-container-vert-projects {
   flex-direction: column;
   background-color: white;
   margin: .5rem;
@@ -100,43 +108,65 @@ a {
 
 }
 
-.flex-container-vert-projects:hover{
+.flex-container-vert-projects:hover {
   box-shadow: 0 0 2.5rem white;
 }
 
-.flex-container-home{
+.flex-container-home {
   background-color: white;
   flex-direction: column;
-  border-radius: 0;
+  border-radius: 0.5rem;
   justify-content: space-between;
-  border: 0;
+  border-style: none;
   text-align: center;
+  line-height: inherit;
+  padding: .5rem;
 }
 
-.menu-item, [class*="button"]{
-  background-color: blue;
+.menu-item,
+button {
+  background-color: #72B9CC;
+  padding-left: .5rem;
+  padding-right: .5rem;
   font-size: 2rem;
-  border-radius: .5rem;
+  border-style: none;
   font-family: 'Noto Sans Symbols', sans-serif;
   color: white;
+  outline: none;
+  outline-style: none;
 }
 
-.button:hover {
-  background-color: green;
-}
-
-.button-small{
-  background-color: gold;
-  font-size: 1rem;
+.button-small {
+  background-color: #72B9CC;
+  font-size: 1.15rem;
   color: black;
+  width: 30%;
+  align-self: center;
+  transition-duration: 1s;
+  border-radius: 50%;
+  padding: .4rem;
+
 }
+
+.button-small:hover {
+  background-color: rgb(75, 168, 60);
+  outline: none;
+
+
+}
+
 /* Dropdown Button */
 .dropbtn {
-  background-color: blue;
+  background-color: #72B9CC;
   color: white;
   font-family: 'Noto Sans Symbols', sans-serif;
   font-size: 2rem;
   border-radius: .5rem;
+  border-style: none;
+  outline: none;
+  outline-style: none;
+
+
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -149,9 +179,9 @@ a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: yellow;
+  background-color: rgb(238, 219, 201);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
   z-index: 1;
 }
 
@@ -166,7 +196,7 @@ a {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: yellowgreen;
+  background-color: rgb(75, 168, 60);
 }
 
 /* Show the dropdown menu on hover */
@@ -176,7 +206,8 @@ a {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: green;
+  background-color: rgb(75, 168, 60);
+  border-radius: 0;
 }
 
 #nightingale {
@@ -192,14 +223,15 @@ a {
   bottom: 15px;
 }
 
-#meipic:hover{
-  box-shadow: 0 0 2.5rem magenta;
+#meipic:hover {
+  transition-duration: 0.5s;
+  box-shadow: 0 0 1rem black;
 }
 
-.project{
-  display: block; 
-  color:black;
-  border-style:none;
+.project {
+  display: block;
+  color: black;
+  border-style: none;
   text-align: center;
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -207,7 +239,7 @@ a {
   padding: .5rem;
 }
 
-#kmm-proof{
+#kmm-proof {
   height: 15rem;
 }
 
@@ -216,11 +248,25 @@ a {
   src: url();
 }
 
-#meipic{
+#meipic {
   width: 20%;
   align-self: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: .3rem;
+  margin-bottom: .2rem;
+}
+
+#question {
+  margin-top: 0;
+  margin-bottom: .5;
+  font-size: 1.5rem;
+}
+
+#about-me {
+  background-color: white;
+}
+
+#cv-pdf{
+  background-color: white;
 }
