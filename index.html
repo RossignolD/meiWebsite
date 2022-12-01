@@ -33,7 +33,7 @@
             </div>
         </a>
         <div class="flex-container" class="navbar">
-            <button onclick="window.location.href='index.html';" class="active-button" class="button">Home</button>
+            <div class="active"><a href='index.html'> Home</a></div>
             <div class="dropdown">
                 <button class="dropbtn">My CV</button>
                 <div class="dropdown-content">
@@ -54,7 +54,6 @@
                     <a href="about-me.html">About Me</a>
                     <a href="my-name.html">My Name</a>
                     <a href="contact-page.html">Contact Me</a>
-
                 </div>
             </div>
         </div>
@@ -62,8 +61,8 @@
             Welcome to Mei Rose Connor's website!
         </div>
         <div class="flex-container-home">
-            <div>What do you get when you cross a Mathematician, a Linguist, and a Logician?</div>
-            <div> <button onclick="hideMei(); hideAnswer()"> Click to show/hide the answer.</button></div>
+            <div id="question">What do you get when you cross a Mathematician, a Linguist, and a Logician?</div>
+            <button onclick="hideMei(); hideAnswer()" class="button-small"> Click to show/hide the answer.</button>
             <div> <img id="meipic" src="mypic.jpeg" alt="A photograph of Mei Rose Connor">
             </div>
             <div id="answer">You get Mei Rose Connor!</div>
