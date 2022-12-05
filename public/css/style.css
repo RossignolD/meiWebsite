@@ -1,12 +1,19 @@
+
+.hyper:hover{
+  color: #72CC7E;
+}
+
+
 [class*="active"] {
-  background-color: rgb(134, 162, 64);
+  background-color: #50878f;
   font-size: 2rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  font-family: 'Noto Sans Symbols', sans-serif;
-  color: white;
+  /* padding-left: .5rem;
+  padding-right: .5rem; */
+  font-family: 'Noto Sans Light', sans-serif;
+  color: rgb(255, 255, 255);
   outline-style: none;
 }
+
 
 body {
   background-image: url("/IMG_6724.jpeg");
@@ -19,33 +26,36 @@ body {
 
 [class*="header"] {
   font-size: 4rem;
+  color: #7586CC;
   font-family: 'Cormorant Garamond', serif;
   background-color: white;
-  color: rgb(70, 108, 5);
+  color: (70, 108, 5);
   margin: 0;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .header-for-cv-section {
   font-size: 2.5rem;
   margin: 0;
+  text-align: center;
   border-style: none;
+  padding-bottom: 0;
 }
 
-a:visited {
-  color: white;
+.downloadlink{
+  color: #7586CC;
 }
 
-a:hover {
+.downloadlink:hover{
+  color:#72CC7E;
+}
+
+.hyper{
   color: black;
 }
-
-a {
-  text-align: center;
-}
-
 .navbar {
-  background-color: #333;
+  background-color: #000;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -60,9 +70,10 @@ a {
   padding: 0.5rem;
   background-color: inherit;
   text-align: center;
-  font-family: 'Noto Sans Symbols', sans-serif;
+  font-family: 'Noto Sans Light', sans-serif;
   font-size: 1rem;
-
+  color: inherit;
+  font-weight: 400;
 }
 
 .main-for-cv {
@@ -76,28 +87,34 @@ a {
   justify-content: space-around;
   background-color: #72B9CC;
   font-size: 2rem;
-  font-family: 'Noto Sans Symbols', sans-serif;
   border-style: none;
   outline-style: none;
   margin: 0;
 }
 
+
 .flex-container-smalltext {
   align-items: center;
+  color: white;
   gap: 4rem;
   line-height: 1.85rem;
   font-size: 1.5rem;
   padding: .5rem;
   margin-top: 1rem;
+  background-color: #508F58;
+  font-family: 'Noto Sans Medium', sans-serif;
+  font-style: italic;
 }
 
 .flex-container-vert-cv {
   flex-direction: column;
-  background-color: rgb(218, 197, 186);
+  background-color: rgb(238, 219, 201);
   margin-top: 1rem;
   margin-left: 0;
   margin-right: 0;
   padding-top: 5rem;
+  font-family: 'Noto Sans Light', sans-serif;
+
 }
 
 .flex-container-vert-projects {
@@ -121,6 +138,7 @@ a {
   text-align: center;
   line-height: inherit;
   padding: .5rem;
+  font-family: Noto Sans Symbols;
 }
 
 .menu-item,
@@ -130,10 +148,11 @@ button {
   padding-right: .5rem;
   font-size: 2rem;
   border-style: none;
-  font-family: 'Noto Sans Symbols', sans-serif;
+  font-family: 'Noto Sans Medium', sans-serif;
   color: white;
   outline: none;
   outline-style: none;
+  align-content: center;
 }
 
 .button-small {
@@ -149,10 +168,8 @@ button {
 }
 
 .button-small:hover {
-  background-color: rgb(75, 168, 60);
+  background-color: #72CC7E  ;
   outline: none;
-
-
 }
 
 /* Dropdown Button */
@@ -196,7 +213,7 @@ button {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: rgb(75, 168, 60);
+  background-color: #72B9CC;
 }
 
 /* Show the dropdown menu on hover */
@@ -206,7 +223,7 @@ button {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: rgb(75, 168, 60);
+  background-color: #50878f;
   border-radius: 0;
 }
 
@@ -243,11 +260,6 @@ button {
   height: 15rem;
 }
 
-@font-face {
-  font-family: Charis SIL;
-  src: url();
-}
-
 #meipic {
   width: 20%;
   align-self: center;
@@ -268,5 +280,5 @@ button {
 }
 
 #cv-pdf{
-  background-color: white;
+  background-color: inherit;
 }
