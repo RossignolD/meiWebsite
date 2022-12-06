@@ -1,5 +1,5 @@
 [class*="active"] {
-  background-color: rgb(134, 162, 64);
+  background-color:#50878F ;
   font-size: 2rem;
   padding-left: .5rem;
   padding-right: .5rem;
@@ -20,8 +20,8 @@ body {
 [class*="header"] {
   font-size: 4rem;
   font-family: 'Cormorant Garamond', serif;
-  background-color: white;
-  color: rgb(70, 108, 5);
+  background-color: #e5eafd;
+  color: #7586cc;
   margin: 0;
   text-align: center;
 }
@@ -32,12 +32,25 @@ body {
   border-style: none;
 }
 
-a:visited {
+#home-button{
   color: white;
 }
 
+#home-button:hover{
+  color: #50878f;
+}
+
+#home-button:visited{
+  color: white;
+}
+
+a:visited {
+  color: #b3ebbb
+  ;
+}
+
 a:hover {
-  color: black;
+  color:#72cc7e;
 }
 
 a {
@@ -66,7 +79,7 @@ a {
 }
 
 .main-for-cv {
-  margin-top: 5rem;
+  margin-top: 3.7rem;
   background-image: none;
 }
 
@@ -89,11 +102,12 @@ a {
   font-size: 1.5rem;
   padding: .5rem;
   margin-top: 1rem;
+  background-color: #508F58;
 }
 
 .flex-container-vert-cv {
   flex-direction: column;
-  background-color: rgb(218, 197, 186);
+  background-color: rgb(244, 234, 228);
   margin-top: 1rem;
   margin-left: 0;
   margin-right: 0;
@@ -149,7 +163,7 @@ button {
 }
 
 .button-small:hover {
-  background-color: rgb(75, 168, 60);
+  background-color: #72cc7e;
   outline: none;
 
 
@@ -179,7 +193,7 @@ button {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(238, 219, 201);
+  background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgb(0, 0, 0);
   z-index: 1;
@@ -196,7 +210,7 @@ button {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: rgb(75, 168, 60);
+  background-color: #50878F;
 }
 
 /* Show the dropdown menu on hover */
@@ -206,7 +220,7 @@ button {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: rgb(75, 168, 60);
+  background-color: #50878F;
   border-radius: 0;
 }
 
