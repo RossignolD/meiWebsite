@@ -3,15 +3,14 @@
   color: #72CC7E;
 }
 
-
-[class*="active"] {
+.active{
   background-color:#50878F ;
   font-size: 2rem;
   /* padding-left: .5rem;
   padding-right: .5rem; */
-  font-family: 'Noto Sans Light', sans-serif;
+  font-family: 'Noto Sans Symbols', sans-serif;
   color: rgb(255, 255, 255);
-  outline-style: none;
+  /* outline-style: none; */
 }
 
 
@@ -47,18 +46,6 @@ body {
   color: #7586CC;
 }
 
-#home-button{
-  color: white;
-}
-
-#home-button:hover{
-  color: #50878f;
-}
-
-#home-button:visited{
-  color: white;
-}
-
 a:visited {
   color: #b3ebbb
   ;
@@ -67,6 +54,22 @@ a:visited {
 a:hover {
   color:#72cc7e;
 }
+
+[class*="home-button"]{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  color: white;
+  font-family: "Noto Sans Light";
+}
+
+.home-button:visited, .home-button:hover{
+  color: white;
+  font-family: "Noto Sans Light";
+}
+
+
 .navbar {
   background-color: #000;
   position: fixed;
@@ -76,6 +79,7 @@ a:hover {
   width: 100%;
   /* Full width */
   margin: 0;
+  padding: 0;
 }
 
 [class*="main"] {
