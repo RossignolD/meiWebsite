@@ -15,11 +15,12 @@
 
 
 body {
-  background-image: url("/IMG_6724.jpeg");
+  background-image: url("/paradox.jpeg");
   margin: .5;
   padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
+  color: rgb(231, 225, 197);
 }
 
 
@@ -89,8 +90,9 @@ a:hover {
   text-align: center;
   font-family: 'Noto Sans Light', sans-serif;
   font-size: 1rem;
-  color: inherit;
   font-weight: 400;
+  background-color: white;
+  color: black;
 }
 
 .main-for-cv {
@@ -125,7 +127,8 @@ a:hover {
 
 .flex-container-vert-cv {
   flex-direction: column;
-  background-color: rgb(244, 234, 228);
+  background-color: white;
+  color: black;
   margin-top: 1rem;
   margin-left: 0;
   margin-right: 0;
@@ -147,7 +150,8 @@ a:hover {
 }
 
 .flex-container-home {
-  background-color: white;
+  background-color: rgba(255, 255, 255, .85);
+  color: black;
   flex-direction: column;
   border-radius: 0.5rem;
   justify-content: space-between;
@@ -284,12 +288,14 @@ button {
   margin-right: auto;
   margin-top: .3rem;
   margin-bottom: .2rem;
+  opacity: 1;
 }
 
 #question {
   margin-top: 0;
   margin-bottom: .5;
   font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 #about-me {
