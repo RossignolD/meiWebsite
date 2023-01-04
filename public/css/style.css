@@ -86,18 +86,21 @@ a:hover {
 [class*="main"] {
   border-radius: 0;
   padding: 0.5rem;
-  background-color: inherit;
   text-align: center;
   font-family: 'Noto Sans Light', sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  background-color: white;
   color: black;
 }
 
 .main-for-cv {
   margin-top: 3.7rem;
-  background-image: none;
+}
+
+#cv-body{
+  background-image: url(/paradox_transparent.png);
+  background-size: 100% auto;
+  background-repeat: repeat-y;
 }
 
 [class*="flex-container"] {
