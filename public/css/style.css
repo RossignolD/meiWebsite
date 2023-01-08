@@ -20,8 +20,13 @@ body {
   padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(231, 225, 197);
 }
+
+#cv-body{
+  background-color: white;
+  background-image: none;
+  }
+  
 
 
 [class*="header"] {
@@ -98,9 +103,7 @@ a:hover {
 }
 
 #cv-body{
-  background-image: url(/paradox_transparent.png);
-  background-size: 100% auto;
-  background-repeat: repeat-y;
+background-color: white;
 }
 
 [class*="flex-container"] {
@@ -112,6 +115,10 @@ a:hover {
   border-style: none;
   outline-style: none;
   margin: 0;
+}
+
+#current-projects{
+  background-color: #72B9CCF1;
 }
 
 
@@ -308,3 +315,4 @@ button {
 #cv-pdf{
   background-color: inherit;
 }
+
