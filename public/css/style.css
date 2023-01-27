@@ -117,7 +117,7 @@ background-color: white;
   margin: 0;
 }
 
-#current-projects{
+#current-projects, #recent-projects{
   background-color: #72B9CCF1;
 }
 
@@ -316,8 +316,13 @@ button {
   background-color: inherit;
 }
 
-#code-screenshot{
+#code-screenshot, #hermit-crab {
   height: auto;
   max-width: 100%;
   padding: 1rem;
+}
+
+#DragLogic-screenshot{
+  height: auto;
+  max-width: 100%;
 }
