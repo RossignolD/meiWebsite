@@ -15,7 +15,7 @@
 
 
 body {
-  background-image: url("/paradox.jpeg");
+  background-image: url("/images/paradox.jpeg");
   margin: .5;
   padding: 0;
   background-size: cover;
@@ -316,3 +316,8 @@ button {
   background-color: inherit;
 }
 
+#code-screenshot{
+  height: auto;
+  max-width: 100%;
+  padding: 1rem;
+}
