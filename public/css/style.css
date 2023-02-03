@@ -335,102 +335,102 @@ button {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
-  text-align: left;
-}
-
-.cv-container-interests{
-grid-template-rows: 1fr 1fr;
-}
-
-.cv-container-work{
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /* text-align: left; */
 }
 
 [class*="cv-left"]{
 align-content: center;
-}
+grid-column-start: 1;
+grid-column-end: 2;
+grid-auto-rows: minmax(min-content, max-content);
 
-.cv-left-ed{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  align-content: center;
 
 }
 
-.cv-left-math{
- grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  align-items: center;
-}
 
 .cv-left-ling{
-  grid-column-start: 1;
-  grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  align-items: center
 
 }
 
-
-
 .cv-left-work1{
-  grid-column-start: 1;
-  grid-column-end: 2;
+
   grid-row-start: 1;
   grid-row-end: 2;
-  align-items: center
 
 }
 
 .cv-left-work2{
-  grid-column-start: 1;
-  grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  align-items: center
 
 }
 
 .cv-left-work3{
-  grid-column-start: 1;
-  grid-column-end: 2;
+
   grid-row-start: 3;
   grid-row-end: 4;
-  align-items: center
+}
+
+.cv-left-work4{
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.cv-left-work5{
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.cv-left-work6{
+  grid-row-start: 6;
+  grid-row-end: 7;
 }
 
 [class*=contents]{
+  grid-column-start: 2;
+  grid-column-end: 3;
   text-align: left;
 }
 
 .contents-math{
-  grid-column-start: 2;
-  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
 
 }
 
 .contents-ling{
-  grid-column-start: 2;
-  grid-column-end: 3;
+
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
 .contents-work1{
-  grid-column-start: 2;
-  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
 }
 
 .contents-work2{
-  grid-column-start: 2;
-  grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+}
+
+.contents-work3{
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.contents-work4{
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.contents-work5{
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.contents-work6{
+  grid-row-start: 6;
+  grid-row-end: 7;
 }
