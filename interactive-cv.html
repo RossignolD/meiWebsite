@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@500&display=swap" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.6.1.js"
         integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="/js/smoothScroll.js"></script>
@@ -51,232 +53,347 @@
                 Here is my interactive CV.
             </div>
 
-
             <div class="flex-container-smalltext">
-                <a href="#education" class="hyper">Education</a>
-                <a href="#research-interests" class="hyper"> Research Interests</a>
-                <a href="#work-experience" class="hyper">Work Experience</a>
-                <a href="#conferences" class="hyper">Conferences with Participation</a>
-                <a href="#extracurriculars" class="hyper">Extracurricular Activities</a>
-                <a href="#computer" class="hyper">Computer Skills</a>
-                <a href="#publications" class="hyper">Publications</a>
+                <a href="#education" class="hyper cv-link">Education</a>
+                <a href="#research-interests" class="hyper cv-link"> Research Interests</a>
+                <a href="#work-experience" class="hyper cv-link">Work Experience</a>
+                <a href="#conferences" class="hyper cv-link">Conferences with Participation</a>
+                <a href="#extracurriculars" class="hyper cv-link">Extracurricular Activities</a>
+                <a href="#computer" class="hyper cv-link">Computer Skills</a>
+                <a href="#publications" class="hyper cv-link">Publications</a>
             </div>
 
             <div class="flex-container-vert-cv" id="education">
                 <div class="header-for-cv-section">Education</div>
-                <div class="flex-container-cv-contents">
-                    <div class="cv-container-ed">
-                        <div id="cv-left-ed"> 2018-2022</div>
-                        <div id="contents-ed">
-                            <ul>
-                                <li>B.Sc. from Stony Brook University, Stony Brook NY
-                                <li>GPA: 3.67/4.00</li>
-                            </ul>
-                        </div>
+                <div class="cv-container-ed">
+                    <div class="cv-left-ed"> 2018-2022</div>
+                    <div class="contents-ed">
+                        <ul>
+                            <li><b> B.Sc.</b> from Stony Brook University, Stony Brook NY
+                            <li>GPA: 3.67/4.00</li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
             <div class="flex-container-smalltext">
-                <a href="#education" class="hyper">Education</a>
-                <a href="#research-interests" class="hyper"> Research Interests</a>
-                <a href="#work-experience" class="hyper">Work Experience</a>
-                <a href="#conferences" class="hyper">Conferences with Participation</a>
-                <a href="#extracurriculars" class="hyper">Extracurricular Activities</a>
-                <a href="#computer" class="hyper">Computer Skills</a>
-                <a href="#publications" class="hyper">Publications</a>
+                <a href="#education" class="hyper cv-link">Education</a>
+                <a href="#research-interests" class="hyper cv-link"> Research Interests</a>
+                <a href="#work-experience" class="hyper cv-link">Work Experience</a>
+                <a href="#conferences" class="hyper cv-link">Conferences with Participation</a>
+                <a href="#extracurriculars" class="hyper cv-link">Extracurricular Activities</a>
+                <a href="#computer" class="hyper cv-link">Computer Skills</a>
+                <a href="#publications" class="hyper cv-link">Publications</a>
             </div>
 
-            <div class="flex-container-vert-cv" id="research-interests">
-                <div class="header-for-cv-section">Research Interests</div>
-                <div class="flex-container-cv-contents">
-                    <div class="cv-container-interests">
-                        <div class="cv-left-math"> Mathematics </div>
-                        <div class="contents-math">
+            <div class="flex-container-vert-cv" id="work-experience">
+                <div class="header-for-cv-section">Work Experience</div>
+                <div class="cv-container-interests">
+                    <div class="cv-left-math"> Mathematics</div>
+                    <div class="contents-math">
+                        <ul>
+                            <li>Algebraic Geometry</li>
+                            <li>Discrete Mathematics</li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="cv-left-ling"> Linguistics </div>
+                    <div class="contents-ling">
+                        <ul>
+                            <li>Cross-linguistic Semantics</li>
+                            <li>Monotonicity of syntactic phenomena</li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="cv-left-logic"> Logic </div>
+                    <div class="contents-logic">
+                        <ul>
+                            <li>Proof Theory, especially Natural Deduction systems</li>
+                            <li>Seven-valued Modal Logic</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex-container-smalltext">
+                <a href="#education" class="hyper cv-link">Education</a>
+                <a href="#research-interests" class="hyper cv-link"> Research Interests</a>
+                <a href="#work-experience" class="hyper cv-link">Work Experience</a>
+                <a href="#conferences" class="hyper cv-link">Conferences with Participation</a>
+                <a href="#extracurriculars" class="hyper cv-link">Extracurricular Activities</a>
+                <a href="#computer" class="hyper cv-link">Computer Skills</a>
+                <a href="#publications" class="hyper cv-link">Publications</a>
+            </div>
+
+            <div class="flex-container-vert-cv" id="work-experience">
+                <div class="header-for-cv-section">Work Experience</div>
+                <div class="cv-container-work">
+                    <div class="cv-left-work1"> Spring 2022 </div>
+                    <div class="contents-work1">
+                        <b>Department Intern</b>, Dept. of Linguistics, Stony Brook University, Stony Brook, New York
+                        <ul>
+                            <li>Read all lecture notes for Mathematical Methods for Linguistics, including new ones</li>
+                            <li>Provided detailed feedback on the lecture notes; the feedback should discuss content as
+                                well
+                                as presentation</li>
+                            <li>Wrote up detailed solutions (including discussion of incorrect solutions) for
+                                hand-crafted
+                                exercises in the lecture notes</li>
+                        </ul>
+                        <hr>
+
+                    </div>
+                    <div class="cv-left-work2"> Summer 2021 </div>
+                    <div class="contents-work2">
+                        <b>Academic Affiliate</b>, Institute for Computational and Experimental Research Mathematics
+                        (ICERM), Brown
+                        University, Providence, Rhode Island
+                        <ul>
+                            <li>Conducted research at ICERM offices for 8 weeks on periodic trajectories of polygonal
+                                billiards dynamics</li>
+                            <li>Worked with undergraduates, TAs, and faculty mentors to prove results making connections
+                                between existing theorems and approaches</li>
+                            <li>Used SageMath (a package for Python) to test hypotheses and run simulations</li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="cv-left-work3"> Spring 2021 </div>
+                    <div class="contents-work3">
+                        <b>Lecturer's Assistant</b>, Dept. of Mathematics, Stony Brook University, Stony Brook, New York
+                        <ul>
+                            <li>Responded promptly to students' questions in virtual calculus class</li>
+                            <li>Participated in classroom management</li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="cv-left-work4"> Winter 2020 </div>
+                    <div class="contents-work4">
+                        <b>Undergraduate Teaching Assistant</b>, Dept. of Philosophy, Stony Brook University, Stony
+                        Brook,
+                        New York
+                        <hr>
+                    </div>
+
+                    <div class="cv-left-work5"> 2019-2022 </div>
+                    <div class="contents-work5">
+                        <b>Student Software Coder</b>, Teaching and Learning Lab, Center for Excellence in Learning and
+                        Teaching,
+                        Stony Brook, New York <ul>
+                            <li>Collaborated with faculty of Biology, Biomedical Engineering, and Philosophy to produce
+                                unique and specialized educational software</li>
+                            <li>Designed and implemented interactive theorem prover to improve upon existing programs
+                                (Logic 2010, Logic 2000) to teach Łukasieviczian propositional logic</li>
+                            <li>Improved upon the Virtual Reality game Tarski's Truth Machine, making it accessible from
+                                desktop and a wide range of VR devices</li>
+                            <li>Integrated the skills (graphics, video editing) of other members of the lab to improve
+                                user
+                                interfaces of software tools</li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="cv-left-work6">2017-2018</div>
+                    <div class="contents-work6">
+                        <b>Lead Conference Organizer</b>, Sonya Kovalevskaya Day of Math for Girls, Ambler,
+                        Pennsylvania
+                    </div>
+                </div>
+
+                <div class="flex-container-smalltext">
+                    <a href="#education" class="hyper cv-link">Education</a>
+                    <a href="#research-interests" class="hyper cv-link"> Research Interests</a>
+                    <a href="#work-experience" class="hyper cv-link">Work Experience</a>
+                    <a href="#conferences" class="hyper cv-link">Conferences with Participation</a>
+                    <a href="#extracurriculars" class="hyper cv-link">Extracurricular Activities</a>
+                    <a href="#computer" class="hyper cv-link">Computer Skills</a>
+                    <a href="#publications" class="hyper cv-link">Publications</a>
+                </div>
+
+                <div class="flex-container-vert-cv" id="conferences">
+                    <div class="header-for-cv-section">Conferences with Participation</div>
+                    <div class="cv-container-conferences">
+                        <div class="cv-left-conferences4">Summer 2022</div>
+                        <div class="contents-conferences4">
+                            <b> Mei Rose Connor supervised by Paul St. Denis</b>, <em>(Drag and) Drop It Like It's Hot:
+                                Comparison of Educational Software for Teaching Natural Deduction and Axiomatic
+                                Derivation</em>, MathFest 2022, Philadelphia, Pennsylvania
                             <ul>
-                                <li>Algebraic Geometry</li>
-                                <li>Discrete Mathematics</li>
-                                <li>Many-valued Logic, especially seven-valued Modal Logic</li>
+                                <li>Presented a poster highlighting a product, DragLogic, developed in the Student
+                                    Software
+                                    Coder position</li>
+                                <li>Compared and contrasted features and interface of DragLogic with competing products
+                                    including Logic 2010, ∃Logic, and QED.</li>
                             </ul>
                             <hr>
                         </div>
-
-                        <div class="cv-left-ling"> Linguistics </div>
-                        <div class="contents-ling">
+                        <div class="cv-left-conferences3">Winter 2022</div>
+                        <div class="contents-conferences3">
+                            <b>Mei Rose Connor, P. Michael Kielstra, Zachary Steinberg, Chenyang Sun</b> <em> Hyperbolic
+                                Staircases: Periodic Paths on 2g+1-gons</em>, Joint Mathematics Meetings,
+                            Seattle, Washington
                             <ul>
-                                <li>Cross-linguistic Semantics</li>
-                                <li>Monotonicity of syntactic phenomena</li>
+                                <li>Presented poster on work done at ICERM with 3 undergraduate collaborators</li>
                             </ul>
+                            <hr>
+                        </div>
+                        <div class="cv-left-conferences2">Spring 2020</div>
+                        <div class="contents-conferences2">
+                            <b>Mei Rose Connor</b>, <em>JainaSyadLogic</em>, Gathering 4 Gardner 14, Atlanta, Georgia:
+                            Cancelled due to COVID
+                            <ul>
+                                <li>Invited to give a 6-minute lecture on work in seven-valued logic</li>
+                                <li>Prepared a unique giveaway for all conference participants related to work in logic
+                                    and
+                                    teaching logic</li>
+                            </ul>
+                            <hr>
+                        </div>
+                        <div class="cv-left-conferences1">Fall 2019</div>
+                        <div class="contents-conferences1">
+                            <b>Mei Rose Connor</b>, <em>Opening Statement</em>, Heidelberg Laureate Forum, Heidelberg,
+                            Germany
+                            <ul>
+                                <li>Produced a 1-minute long Opening Statement shown to all participants and laureates
+                                    at
+                                    Opening Ceremonies</li>
+                                <li>Engaged daily with mathematics and computer science laureates as well as young
+                                    researchers from around the world</li>
+                                <li>Attended professional development Q&A led by Fields medallist Efim Zelmanov</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-container-smalltext">
+                        <a href="#education" class="hyper cv-link">Education</a>
+                        <a href="#research-interests" class="hyper cv-link"> Research Interests</a>
+                        <a href="#work-experience" class="hyper cv-link">Work Experience</a>
+                        <a href="#conferences" class="hyper cv-link">Conferences with Participation</a>
+                        <a href="#extracurriculars" class="hyper cv-link">Extracurricular Activities</a>
+                        <a href="#computer" class="hyper cv-link">Computer Skills</a>
+                        <a href="#publications" class="hyper cv-link">Publications</a>
+                    </div>
+
+                    <div class="flex-container-vert-cv" id="extracurriculars">
+                        <div class="header-for-cv-section">Extracurricular Activities</div>
+                        <div class="cv-container-ec">
+                            <div class="cv-left-ec5">Spring 2021-Spring 2022</div>
+                            <div class="contents-ec5">
+                                <b>President of Stony Brook University Math Club</b>, Stony Brook University, Stony
+                                Brook, New York
+                                <ul>
+                                    <li>Planned and organized events ranging from faculty and student lectures to
+                                        statistics-themed craft night </li>
+                                    <li>Held meeting of executive board every week during which previous week's and
+                                        future events are discussed</li>
+                                    <li>Designed posters and mailings sent to a 400+ person mailing list to raise
+                                        awareness and attendance at events</li>
+                                </ul>
+                                <hr>
+                            </div>
+                            <div class="cv-left-ec4">Spring 2021</div>
+                            <div class="contents-ec4">
+                                <b>Math With Words: An Introduction to Formal Semantics</b>, Stony Brook University Math
+                                Club, Virtual
+                                <ul>
+                                    <li>Introduced the idea of analyzing the meaning of sentences based on the meaning
+                                        of constituent parts (compositionality)</li>
+                                    <li>Stepped through the process of deriving truth conditions for a sentence from
+                                        lexical, phrasal, and substitution rules applied to it</li>
+                                    <li>Part of a series of Quarantined Undergraduate End-of-Semester Talks (QUEST) with
+                                        various speakers (Spring Semester series)</li>
+                                    <li>Presented in under 20 minutes, as is the constraint for QUEST</li>
+                                </ul>
+                                <hr>
+                            </div>
+                            <div class="cv-left-ec3">Winter 2020</div>
+                            <div class="contents-ec3">
+                                <b>Bombelli and the History of Complex Numbers</b>, Stony Brook University Math Club,
+                                Virtual
+                                <ul>
+                                    <li>Discussed the history of complex numbers, building from the ideas of Diophantos
+                                        and Mahavira to the problem of the solutions of cubics in the XVI century</li>
+                                    <li>Part of QUEST (Fall Semester series) and presented in under 20 minutes</li>
+                                </ul>
+                                <hr>
+                            </div>
+                            <div class="cv-left-ec2">Spring 2020</div>
+                            <div class="contents-ec2">
+                                <b>From True and False to JSL: An Adventure in Logic</b>, Stony Brook University Math
+                                Club,
+                                Virtual
+                                <ul>
+                                    <li>Introduced the ideas of the propositional logic connectives, their syntax, and
+                                        their semantics
+                                        in terms of truth tables</li>
+                                    <li>Discussed modal logic operators, box and diamond, as well as modal axioms</li>
+                                    <li>Showed history, motivation, and syntax of JainaSyadLogic, the presenter's own
+                                        7-valued
+                                        modal logic system</li>
+                                </ul>
+                                <hr>
+                            </div>
+
+                            <div class="cv-left-ec1">Winter 2019</div>
+                            <div class="contents-ec1">
+                                <b>Joint Mathematics Meetings</b>, Baltimore, Maryland
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-container-smalltext">
+                        <a href="#education">Education</a>
+                        <a href="#research-interests">Research Interests</a>
+                        <a href="#work-experience">Work Experience</a>
+                        <a href="#conferences">Conferences with Participation</a>
+                        <a href="#extracurriculars">Extracurricular Activities</a>
+                        <a href="#computer">Computer Skills</a>
+                        <a href="#publications">Publications</a>
+
+
+                    </div>
+
+                    <div class="flex-container-vert-cv" id="computer">
+                        <div class="header-for-cv-section">Computer Skills</div>
+                        <div class="cv-container-compskills">
+                            <div class="cv-left-proficient">Proficient</div>
+                            <div class="contents-proficient">
+                                LaTeX 2ε, Desmos Graphing Calculator, LEGO Mindstorms EV3,
+                                JavaScript/jQuery, HTML/CSS, Python 3
+                                <hr>
+                            </div>
+                            <div class="cv-left-familiar">Familiar with</div>
+                            <div class="contents-familiar">
+                                Maple, Sage/CoCalc, Mathematica
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-container-smalltext">
+                        <a href="#education" class="hyper cv-link">Education</a>
+                        <a href="#research-interests" class="hyper cv-link"> Research Interests</a>
+                        <a href="#work-experience" class="hyper cv-link">Work Experience</a>
+                        <a href="#conferences" class="hyper cv-link">Conferences with Participation</a>
+                        <a href="#extracurriculars" class="hyper cv-link">Extracurricular Activities</a>
+                        <a href="#computer" class="hyper cv-link">Computer Skills</a>
+                        <a href="#publications" class="hyper cv-link">Publications</a>
+                    </div>
+
+                    <div class="flex-container-vert-cv" id="publications" style="padding-top:0;">
+                        <div class="header-for-cv-section">Publications</div>
+                        <div class="cv-container-papers">
+                            <div class="cv-left-paper-1">2021</div>
+                            <div> Mei Rose Connor, Diana Davis, Paige Helms, Samuel Lelièvre, Michael Kielstra, Zachary
+                                Steinberg, and Chenyang Sun. <em> Hyperbolic staircases: Periodic paths on 2g + 1-gons.</em> <a
+                                    href="https://arxiv.org/abs/2111.13971"> Preprint.</a></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="flex-container-smalltext">
-            <a href="#education" class="hyper">Education</a>
-            <a href="#research-interests" class="hyper"> Research Interests</a>
-            <a href="#work-experience" class="hyper">Work Experience</a>
-            <a href="#conferences" class="hyper">Conferences with Participation</a>
-            <a href="#extracurriculars" class="hyper">Extracurricular Activities</a>
-            <a href="#computer" class="hyper">Computer Skills</a>
-            <a href="#publications" class="hyper">Publications</a>
-        </div>
-
-        <div class="flex-container-vert-cv" id="work-experience">
-            <div class="header-for-cv-section">Work Experience</div>
-            <div class="cv-container-work">
-                <div class="cv-left-work1"> Spring 2022 </div>
-                <div class="contents-work1">
-                    Department Intern, Dept. of Linguistics, Stony Brook University, Stony Brook, New York
-                    <ul>
-                        <li>Read all lecture notes for Mathematical Methods for Linguistics, including new ones</li>
-                        <li>Provided detailed feedback on the lecture notes; the feedback should discuss content as well
-                            as presentation</li>
-                        <li>Wrote up detailed solutions (including discussion of incorrect solutions) for hand-crafted
-                            exercises in the lecture notes</li>
-                    </ul>
-                    <hr>
-
-                </div>
-                <div class="cv-left-work2"> Summer 2021 </div>
-                <div class="contents-work2">
-                    Academic Affiliate, Institute for Computational and Experimental Research Mathematics (ICERM), Brown
-                    University, Providence, Rhode Island
-                    <ul>
-                        <li>Conducted research at ICERM offices for 8 weeks on periodic trajectories of polygonal
-                            billiards dynamics</li>
-                        <li>Worked with undergraduates, TAs, and faculty mentors to prove results making connections
-                            between existing theorems and approaches</li>
-                        <li>Used SageMath (a package for Python) to test hypotheses and run simulations</li>
-                    </ul>
-                    <hr>
-                </div>
-
-                <div class="cv-left-work3"> Spring 2021 </div>
-                <div class="contents-work3">
-                    Lecturer's Assistant, Dept. of Mathematics, Stony Brook University, Stony Brook, New York
-                    <ul>
-                        <li>Responded promptly to students' questions in virtual calculus class</li>
-                        <li>Participated in classroom management</li>
-                    </ul>
-                    <hr>
-                </div>
-
-                <div class="cv-left-work4"> Winter 2020 </div>
-                <div class="contents-work4">
-                    Undergraduate Teaching Assistant, Dept. of Philosophy, Stony Brook University, Stony Brook, New York
-                    <hr>
-                </div>
-
-                <div class="cv-left-work5">  2019-2022 </div>
-                <div class="contents-work5">
-                    Student Software Coder, Teaching and Learning Lab, Center for Excellence in Learning and Teaching, Stony Brook, New York                    <ul>
-                        <li>Collaborated with faculty of Biology, Biomedical Engineering, and Philosophy to produce
-                            unique and specialized educational software</li>
-                        <li>Designed and implemented interactive theorem prover to improve upon existing programs
-                            (Logic 2010, Logic 2000) to teach Łukasieviczian propositional logic</li>
-                        <li>Improved upon the Virtual Reality game Tarski's Truth Machine, making it accessible from
-                            desktop and a wide range of VR devices</li>
-                        <li>Integrated the skills (graphics, video editing) of other members of the lab to improve user
-                            interfaces of software tools</li>
-                    </ul>
-                    <hr>
-                </div>
-
-                <div class="cv-left-work6">2017-2018</div>
-                <div class="contents-work6">
-                    Lead Conference Organizer, Sonya Kovalevskaya Day of Math for Girls, Ambler,
-                    Pennsylvania
-                </div>
-            </div>
-
-            <div class="flex-container-smalltext">
-                <a href="#education" class="hyper">Education</a>
-                <a href="#research-interests" class="hyper"> Research Interests</a>
-                <a href="#work-experience" class="hyper">Work Experience</a>
-                <a href="#conferences" class="hyper">Conferences with Participation</a>
-                <a href="#extracurriculars" class="hyper">Extracurricular Activities</a>
-                <a href="#computer" class="hyper">Computer Skills</a>
-                <a href="#publications" class="hyper">Publications</a>
-            </div>
-
-            <div class="flex-container-vert-cv" id="conferences">
-                <div class="header-for-cv-section">Conferences with Participation</div>
-                <div>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum."
-                </div>
-            </div>
-            <div class="flex-container-smalltext">
-                <a href="#education" class="hyper">Education</a>
-                <a href="#research-interests" class="hyper"> Research Interests</a>
-                <a href="#work-experience" class="hyper">Work Experience</a>
-                <a href="#conferences" class="hyper">Conferences with Participation</a>
-                <a href="#extracurriculars" class="hyper">Extracurricular Activities</a>
-                <a href="#computer" class="hyper">Computer Skills</a>
-                <a href="#publications" class="hyper">Publications</a>
-            </div>
-
-            <div class="flex-container-vert-cv" id="extracurriculars">
-                <div class="header-for-cv-section">Extracurricular Activities</div>
-                <div>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum."
-                </div>
-            </div>
-
-            <div class="flex-container-smalltext">
-                <a href="#education">Education</a>
-                <a href="#research-interests">Research Interests</a>
-                <a href="#work-experience">Work Experience</a>
-                <a href="#conferences">Conferences with Participation</a>
-                <a href="#extracurriculars">Extracurricular Activities</a>
-                <a href="#computer">Computer Skills</a>
-                <a href="#publications">Publications</a>
-
-
-            </div>
-
-            <div class="flex-container-vert-cv" id="computer">
-                <div class="header-for-cv-section">Computer Skills</div>
-                <div>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum."
-                </div>
-            </div>
-
-            <div class="flex-container-smalltext">
-                <a href="#education" class="hyper">Education</a>
-                <a href="#research-interests" class="hyper"> Research Interests</a>
-                <a href="#work-experience" class="hyper">Work Experience</a>
-                <a href="#conferences" class="hyper">Conferences with Participation</a>
-                <a href="#extracurriculars" class="hyper">Extracurricular Activities</a>
-                <a href="#computer" class="hyper">Computer Skills</a>
-                <a href="#publications" class="hyper">Publications</a>
-            </div>
-
-            <div class="flex-container-vert-cv" id="publications" style="padding-top:0;">
-                <div class="header-for-cv-section">Publications</div>
-                <div>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum."
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
 
     <script>

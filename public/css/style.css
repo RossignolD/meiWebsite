@@ -3,6 +3,10 @@
   color: #72CC7E;
 }
 
+.cv-link:visited{
+  color:#72CC7E;
+}
+
 .active{
   background-color:#50878F ;
   font-size: 2rem;
@@ -11,6 +15,7 @@
   font-family: 'Noto Sans Symbols', sans-serif;
   color: rgb(255, 255, 255);
   /* outline-style: none; */
+  font-weight: 300;
 }
 
 
@@ -20,6 +25,7 @@ body {
   padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
+  line-height: 1.25;
 }
 
 #cv-body{
@@ -30,7 +36,8 @@ body {
 
 
 [class*="header"] {
-  font-size: 4rem;
+  font-size: 4rem;align-content: left;
+
   color: #7586CC;
   font-family: 'Cormorant Garamond', serif;
   background-color: #e5eafd;
@@ -52,9 +59,12 @@ body {
   color: #7586CC;
 }
 
+a{
+  color: inherit;
+}
+
 a:visited {
-  color: #b3ebbb
-  ;
+  color: inherit;
 }
 
 a:hover {
@@ -73,6 +83,10 @@ a:hover {
 .home-button:visited, .home-button:hover{
   color: white;
   font-family: "Noto Sans Light";
+}
+
+.home:hover{
+  color: white;
 }
 
 
@@ -135,6 +149,7 @@ background-color: white;
   font-style: italic;
 }
 
+
 .flex-container-vert-cv {
   flex-direction: column;
   background-color: white;
@@ -169,7 +184,7 @@ background-color: white;
   text-align: center;
   line-height: inherit;
   padding: .5rem;
-  font-family: Noto Sans Symbols;
+  font-family: "Noto Sans Symbols", sans-serif;
 }
 
 .flex-container-cv-contents{
@@ -217,6 +232,7 @@ button {
   border-style: none;
   outline: none;
   outline-style: none;
+  font-weight: 300;
 
 
 }
@@ -244,6 +260,7 @@ button {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-weight: 300;
 }
 
 /* Change color of dropdown links on hover */
@@ -316,6 +333,15 @@ button {
   background-color: white;
 }
 
+b {
+  font-family: "Noto Sans Symbols", sans-serif;
+  font-weight: 500;
+}
+
+li {
+  margin-top: .5rem;
+}
+
 #cv-pdf{
   background-color: inherit;
 }
@@ -335,23 +361,40 @@ button {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
+  text-align: left;
   /* text-align: left; */
 }
 
 [class*="cv-left"]{
-align-content: center;
 grid-column-start: 1;
 grid-column-end: 2;
 grid-auto-rows: minmax(min-content, max-content);
 
-
 }
 
 
+.cv-left-ed{
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cv-left-math{
+
+  grid-row-start: 1;
+  grid-row-end:2;
+}
+
 .cv-left-ling{
+
   grid-row-start: 2;
   grid-row-end: 3;
+}
 
+.cv-left-logic{
+
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .cv-left-work1{
@@ -388,10 +431,72 @@ grid-auto-rows: minmax(min-content, max-content);
   grid-row-end: 7;
 }
 
+.cv-left-conferences4{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cv-left-conferences3{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cv-left-conferences2{
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cv-left-conferences1{
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+
+.cv-left-ec5{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cv-left-ec4{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cv-left-ec3{
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cv-left-ec2{
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.cv-left-ec1{
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.cv-left-proficient{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cv-left-familiar{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
 [class*=contents]{
   grid-column-start: 2;
   grid-column-end: 3;
+  line-height: 1.15;
   text-align: left;
+}
+
+.contents-ed{
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .contents-math{
@@ -433,4 +538,59 @@ grid-auto-rows: minmax(min-content, max-content);
 .contents-work6{
   grid-row-start: 6;
   grid-row-end: 7;
+}
+
+.contents-conferences4{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.contents-conferences3{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.contents-conferences2{
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.contents-conferences1{
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.contents-ec5{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.contents-ec4{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.contents-ec3{
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.contents-ec2{
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.contents-ec1{
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.contents-proficient{
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.contents-familiar{
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
