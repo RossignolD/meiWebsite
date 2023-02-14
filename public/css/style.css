@@ -210,6 +210,10 @@ button {
 
 }
 
+.button-small:hover{
+  background-color: #72CC7E;
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #72B9CC;
