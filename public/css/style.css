@@ -24,9 +24,12 @@ body {
 #cv-body{
   background-color: white;
   background-image: none;
+  font-size: 1.5rem;
   }
   
-
+.about-this-site{
+  background-image: url("/images/paradox_transparent.png");
+}
 
 [class*="header"] {
   font-size: 4rem;align-content: left;
@@ -41,8 +44,11 @@ body {
 }
 
 .header-for-cv-section {
-  font-size: 2.5rem;
-  margin: 0;
+  font-size: 3rem;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 1rem;
   text-align: center;
   border-style: none;
   padding-bottom: 0;
@@ -70,12 +76,12 @@ a:hover {
   justify-content: center;
   height: auto;
   color: white;
-  font-family: "Noto Sans Light";
+  font-family: "Noto Sans Symbols Light", sans-serif;
 }
 
 .home-button:visited, .home-button:hover{
   color: white;
-  font-family: "Noto Sans Light";
+  font-family: "Noto Sans Symbols Light", sans-serif;
 }
 
 .home:hover{
@@ -99,18 +105,14 @@ a:hover {
   border-radius: 0;
   padding: 0.5rem;
   text-align: center;
-  font-family: 'Noto Sans Light', sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
+  font-family: 'Noto Sans Symbols Light', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
   color: black;
 }
 
 .main-for-cv {
   margin-top: 3.7rem;
-}
-
-#cv-body{
-background-color: white;
 }
 
 [class*="flex-container"] {
@@ -138,7 +140,7 @@ background-color: white;
   padding: .5rem;
   margin-top: 1rem;
   background-color: #508F58;
-  font-family: 'Noto Sans Medium', sans-serif;
+  font-family: 'Noto Sans Symbols Medium', sans-serif;
   font-style: italic;
 }
 
@@ -151,7 +153,7 @@ background-color: white;
   margin-left: 0;
   margin-right: 0;
   padding-top: 5rem;
-  font-family: 'Noto Sans Light', sans-serif;
+  font-family: 'Noto Sans Symbols Light', sans-serif;
 
 }
 
@@ -177,7 +179,7 @@ background-color: white;
   text-align: center;
   line-height: inherit;
   padding: .5rem;
-  font-family: "Noto Sans Symbols", sans-serif;
+  font-family: "Noto Sans Symbols Light", sans-serif;
 }
 
 .flex-container-cv-contents{
@@ -191,7 +193,7 @@ button {
   padding-right: .5rem;
   font-size: 2rem;
   border-style: none;
-  font-family: 'Noto Sans Medium', sans-serif;
+  font-family: 'Noto Sans Symbols Medium', sans-serif;
   color: white;
   outline: none;
   outline-style: none;
@@ -331,13 +333,13 @@ button {
   background-color: rgba(255, 255, 255, 1);
 }
 
-#about-me {
+#about-me, #my-name{
   background-color: white;
 }
 
 b {
   font-family: "Noto Sans Symbols", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 li {
@@ -595,4 +597,13 @@ grid-auto-rows: minmax(min-content, max-content);
 .contents-familiar{
   grid-row-start: 2;
   grid-row-end: 3;
+}
+
+.par-with-spaces{
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-family: "Noto Sans Symbols Medium", sans-serif;
+
 }
