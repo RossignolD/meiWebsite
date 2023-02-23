@@ -124,6 +124,8 @@ a:hover {
   border-style: none;
   outline-style: none;
   margin: 0;
+  flex: 1;
+
 }
 
 #current-projects, #recent-projects{
@@ -310,6 +312,7 @@ button {
   line-height: 1.5rem;
   margin: .5rem;
   padding: .5rem;
+
 }
 
 #kmm-proof {
@@ -351,14 +354,24 @@ li {
 }
 
 #code-screenshot{
-  height: auto;
+  height:15rem;
   max-width: 100%;
   padding: 1rem;
+}
+
+.project-image{
+  width: auto 
 }
 
 #DragLogic-screenshot, #hermit-crab{
   height: auto;
   max-width: 100%;
+}
+
+.embroidery{
+  height: 10rem;
+  margin: 0;
+  padding: 0;
 }
 
 [class*="cv-container"] {
