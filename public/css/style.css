@@ -12,9 +12,9 @@
 }
 
 
-body {
+body{
   background-image: url("/images/paradox.jpeg");
-  margin: .5;
+  margin: .5rem;
   padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -333,7 +333,7 @@ button {
   background-color: rgba(255, 255, 255, 1);
 }
 
-#about-me, #my-name{
+#about-me, #my-name, .contact-me{
   background-color: rgba(255, 255, 255, .89);
 }
 
@@ -350,13 +350,13 @@ li {
   background-color: inherit;
 }
 
-#code-screenshot, #hermit-crab {
+#code-screenshot{
   height: auto;
   max-width: 100%;
   padding: 1rem;
 }
 
-#DragLogic-screenshot{
+#DragLogic-screenshot, #hermit-crab{
   height: auto;
   max-width: 100%;
 }
@@ -614,10 +614,19 @@ table, th, td {
 text-align: center;
 }
 
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 th, td{
   padding: .25rem;
 }
 
 .spectrogram{
   width: 20rem;
+}
+
+#email-pic{
+  height: 2.8rem;
 }
