@@ -1,93 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Mei Rose Connor's website</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.svg" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="current-projects">
-        <div class="flex-container" class="navbar">
-            <div><a href='index.html' class="home-button"> Home</a></div>
-            <div class="dropdown">
-                <button class="dropbtn">My CV</button>
-                <div class="dropdown-content">
-                    <a href=interactive-cv.html>Interactive&nbsp;CV</a>
-                    <a href="cv-pdf.html">View&nbsp;PDF</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="active" class="dropbtn">Projects</button>
-                <div class="dropdown-content">
-                    <a href="current-projects.html" class="active">Current&nbsp;Projects </a>
-                    <a href="recent-projects.html">Recent&nbsp;Projects </a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Mei Rose Connor</button>
-                <div class="dropdown-content">
-                    <a href="about-me.html">About this Site</a>
-                    <a href="my-name.html">My Name</a>
-                    <a href="contact-page.html">Contact Me</a>
-
-                </div>
-            </div>
+      <nav class="flex-container navbar">
+        <div><a href="index.html" class="home-button"> Home</a></div>
+        <div class="dropdown">
+          <button class="dropbtn">My CV</button>
+          <div class="dropdown-content">
+            <a href="interactive-cv.html">Interactive&nbsp;CV</a>
+            <a href="cv-pdf.html">View&nbsp;PDF</a>
+          </div>
         </div>
-        <div class="header" id="testbutton">
-            Here are some projects I have worked on recently:
+        <div class="dropdown">
+          <button class="active" class="dropbtn">Projects</button>
+          <div class="dropdown-content">
+            <a href="current-projects.html" class="active"
+              >Current&nbsp;Projects
+            </a>
+            <a href="recent-projects.html">Recent&nbsp;Projects </a>
+          </div>
         </div>
-        <div class="main">
-            <div class="flex-container" id="recent-projects">
-                <div class="flex-container-vert-projects">
-                    <div class="project">
-                        <div>
-                            <img src="/images/DragLogic-screenshot.png" id="DragLogic-screenshot"
-                                alt="A screenshot of DragLogic">
-                        </div>
-                        <div class="project">
-                            This project, DragLogic was developed under the supervision of Paul St. Denis at the
-                            Teaching and Learning Lab job.
-                            The original goal of the project was to create a drag-and-drop natural deduction program, to
-                            be used by the Introduction to Symbolic
-                            Logic class at Stony Brook University. The plan was to mirror the style of natural deduction
-                            presented in Kalish, Montague, and Mar's
-                            textbook, <em>Logic: Techniques of Formal Reasoning.</em> It evolved into a more axiomatic
-                            derivation system as the difficulty
-                            of writing a logic engine in Javascript began to mount with every inference rule. The system
-                            was finally reduced to
-                            a axiomatic derivation system in the style of Łukasiewicz, and saw its sunset in early 2022.
-                            <a href="https://apps.tlt.stonybrook.edu/DragLogic/">Here</a>
-                            is a link to the final version. Its code can be found in <a
-                                href="https://github.com/SBUtltmedia/DragLogic">this GitHub repository.</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-container-vert-projects">
-                    <div class="project">
-                        <div class="project">
-                            <img src="/images/hermit-program.png" id="hermit-crab" alt="A photo of a hermit crab">
-                        </div>
-                    </div>
-                    <div class="project">
-                        This project was started around the same time as DragLogic's development began. The goal of the project was to create
-                        an agent-based model of hermit-crab shell-swapping behaviors, a research interest of two biologists in the 
-                        Evolution and Ecology Department at Stony Brook University. These two scientists discovered in their research that 
-                        hermit-crab shell size distribution follows patterns similar to those found in human income distributions. This 
-                        model, built in the software tool NetLogo, allows students to change parameters and experiment with the model
-                        to discover the phenomenon for themselves.
-                    </div>
-                </div>
+        <div class="dropdown">
+          <button class="dropbtn">Mei Rose Connor</button>
+          <div class="dropdown-content">
+            <a href="about-me.html">About this Site</a>
+            <a href="my-name.html">My Name</a>
+            <a href="contact-page.html">Contact Me</a>
+          </div>
+        </div>
+      </nav>
+      <header class="header" id="testbutton">
+        Here are some projects I have worked on recently:
+      </header>
+      <main class="main">
+        <div class="flex-container" id="recent-projects">
+          <div class="flex-container-vert-projects">
+            <div class="project">
+              <div>
+                <img
+                  src="/images/DragLogic-screenshot.png"
+                  id="DragLogic-screenshot"
+                  alt="A screenshot of DragLogic"
+                />
+              </div>
+              <div class="project">
+                This project, DragLogic was developed under the supervision of
+                Paul St. Denis at the Teaching and Learning Lab job. The
+                original goal of the project was to create a drag-and-drop
+                natural deduction program, to be used by the Introduction to
+                Symbolic Logic class at Stony Brook University. The plan was to
+                mirror the style of natural deduction presented in Kalish,
+                Montague, and Mar's textbook,
+                <em>Logic: Techniques of Formal Reasoning.</em> It evolved into
+                a more axiomatic derivation system as the difficulty of writing
+                a logic engine in Javascript began to mount with every inference
+                rule. The system was finally reduced to a axiomatic derivation
+                system in the style of Łukasiewicz, and saw its sunset in early
+                2022.
+                <a href="https://apps.tlt.stonybrook.edu/DragLogic/">Here</a>
+                is a link to the final version. Its code can be found in
+                <a href="https://github.com/SBUtltmedia/DragLogic"
+                  >this GitHub repository.</a
+                >
+              </div>
             </div>
+          </div>
+          <div class="flex-container-vert-projects">
+            <div class="project">
+              <div class="project">
+                <img
+                  src="/images/hermit-program.png"
+                  id="hermit-crab"
+                  alt="A photo of a hermit crab"
+                />
+              </div>
+            </div>
+            <div class="project">
+              This project was started around the same time as DragLogic's
+              development began. The goal of the project was to create an
+              agent-based model of hermit-crab shell-swapping behaviors, a
+              research interest of two biologists in the Evolution and Ecology
+              Department at Stony Brook University. These two scientists
+              discovered in their research that hermit-crab shell size
+              distribution follows patterns similar to those found in human
+              income distributions. This model, built in the software tool
+              NetLogo, allows students to change parameters and experiment with
+              the model to discover the phenomenon for themselves.
+            </div>
+          </div>
         </div>
+      </main>
     </div>
-</body>
+  </body>
+</html>

@@ -1,51 +1,49 @@
-
-
-.active{
-  background-color:#50878F ;
+.active {
+  background-color: #50878f;
   font-size: 2rem;
   /* padding-left: .5rem;
   padding-right: .5rem; */
-  font-family: 'Noto Sans Symbols', sans-serif;
+  font-family: "Noto Sans Symbols", sans-serif;
   color: rgb(255, 255, 255);
   /* outline-style: none; */
   font-weight: 300;
 }
 
-
-body{
+body {
   background-image: url("/images/paradox.jpeg");
-  margin: .5rem;
+  margin: 0.5rem;
   padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
   line-height: 1.25;
 }
 
-#cv-body{
+#cv-body {
   background-color: white;
   background-image: none;
   font-size: 1.5rem;
-  }
-  
-.about-this-site{
+}
+
+.about-this-site {
   background-image: url("/images/paradox_transparent.png");
 }
 
-[class*="header"] {
-  font-size: 4rem;align-content: left;
+header {
+  font-size: 4rem;
+  align-content: left;
 
-  color: #7586CC;
-  font-family: 'Cormorant Garamond', serif;
+  color: #7586cc;
+  font-family: "Cormorant Garamond", serif;
   background-color: #e5eafd;
   color: #7586cc;
-  margin: 0;
+  margin: 4rem 0 0 0;
   text-align: center;
   padding-bottom: 1rem;
 }
 
 .header-for-cv-section {
   font-size: 3rem;
-  margin-top: 0;
+  margin-top: 2rem;
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 1rem;
@@ -54,11 +52,11 @@ body{
   padding-bottom: 0;
 }
 
-.downloadlink{
-  color: #7586CC;
+.downloadlink {
+  color: #7586cc;
 }
 
-a{
+a {
   color: inherit;
 }
 
@@ -67,10 +65,10 @@ a:visited {
 }
 
 a:hover {
-  color:#72cc7e;
+  color: #72cc7e;
 }
 
-[class*="home-button"]{
+[class*="home-button"] {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,18 +77,18 @@ a:hover {
   font-family: "Noto Sans Symbols Light", sans-serif;
 }
 
-.home-button:visited, .home-button:hover{
+.home-button:visited,
+.home-button:hover {
   color: white;
   font-family: "Noto Sans Symbols Light", sans-serif;
 }
 
-.home:hover{
+.home:hover {
   color: white;
 }
 
-
-.navbar {
-  background-color: #000;
+nav.navbar {
+  background-color: #72b9cc;
   position: fixed;
   /* Set the navbar to fixed position */
   top: 0;
@@ -105,7 +103,7 @@ a:hover {
   border-radius: 0;
   padding: 0.5rem;
   text-align: center;
-  font-family: 'Noto Sans Symbols Light', sans-serif;
+  font-family: "Noto Sans Symbols Light", sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
   color: black;
@@ -119,19 +117,18 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #72B9CC;
+  background-color: #72b9cc;
   font-size: 2rem;
   border-style: none;
   outline-style: none;
   margin: 0;
   flex: 1;
-
 }
 
-#current-projects, #recent-projects{
-  background-color: #72B9CCF1;
+#current-projects,
+#recent-projects {
+  background-color: #72b9ccf1;
 }
-
 
 .flex-container-smalltext {
   align-items: center;
@@ -139,13 +136,12 @@ a:hover {
   gap: 4rem;
   line-height: 1.85rem;
   font-size: 1.5rem;
-  padding: .5rem;
+  padding: 0.5rem;
   margin-top: 1rem;
-  background-color: #508F58;
-  font-family: 'Noto Sans Symbols Medium', sans-serif;
+  background-color: #508f58;
+  font-family: "Noto Sans Symbols Medium", sans-serif;
   font-style: italic;
 }
-
 
 .flex-container-vert-cv {
   flex-direction: column;
@@ -155,16 +151,14 @@ a:hover {
   margin-left: 0;
   margin-right: 0;
   padding-top: 5rem;
-  font-family: 'Noto Sans Symbols Light', sans-serif;
-
+  font-family: "Noto Sans Symbols Light", sans-serif;
 }
 
 .flex-container-vert-projects {
   flex-direction: column;
   background-color: white;
-  margin: .5rem;
+  margin: 0.5rem;
   block-size: fit-content;
-
 }
 
 .flex-container-vert-projects:hover {
@@ -172,7 +166,7 @@ a:hover {
 }
 
 .flex-container-home {
-  background-color: rgba(255, 255, 255, .85);
+  background-color: rgba(255, 255, 255, 0.85);
   color: black;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -180,22 +174,22 @@ a:hover {
   border-style: none;
   text-align: center;
   line-height: inherit;
-  padding: .5rem;
+  padding: 0.5rem;
   font-family: "Noto Sans Symbols Light", sans-serif;
 }
 
-.flex-container-cv-contents{
+.flex-container-cv-contents {
   background-color: white;
 }
 
 .menu-item,
 button {
-  background-color: #72B9CC;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  background-color: #72b9cc;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-size: 2rem;
   border-style: none;
-  font-family: 'Noto Sans Symbols Medium', sans-serif;
+  font-family: "Noto Sans Symbols Medium", sans-serif;
   color: white;
   outline: none;
   outline-style: none;
@@ -203,34 +197,31 @@ button {
 }
 
 .button-small {
-  background-color: #72B9CC;
+  background-color: #72b9cc;
   font-size: 1.15rem;
   color: black;
   width: 30%;
   align-self: center;
   transition-duration: 1s;
   border-radius: 50%;
-  padding: .4rem;
-
+  padding: 0.4rem;
 }
 
-.button-small:hover{
-  background-color: #72CC7E;
+.button-small:hover {
+  background-color: #72cc7e;
 }
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #72B9CC;
+  background-color: #72b9cc;
   color: white;
-  font-family: 'Noto Sans Symbols', sans-serif;
+  font-family: "Noto Sans Symbols", sans-serif;
   font-size: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border-style: none;
   outline: none;
   outline-style: none;
   font-weight: 300;
-
-
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -252,7 +243,7 @@ button {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  font-family: 'Noto Sans Symbols', sans-serif;
+  font-family: "Noto Sans Symbols", sans-serif;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -261,7 +252,7 @@ button {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #50878F;
+  background-color: #50878f;
 }
 
 /* Show the dropdown menu on hover */
@@ -271,18 +262,16 @@ button {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #50878F;
+  background-color: #50878f;
   border-radius: 0;
 }
 
-
-
-.cv-link:visited{
-  color:#72CC7E;
+.cv-link:visited {
+  color: #72cc7e;
 }
 
-.cv-link:hover{
-  color:#cbeed0
+.cv-link:hover {
+  color: #cbeed0;
 }
 
 #nightingale {
@@ -310,9 +299,8 @@ button {
   text-align: center;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  margin: .5rem;
-  padding: .5rem;
-
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 #kmm-proof {
@@ -324,20 +312,22 @@ button {
   align-self: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: .3rem;
-  margin-bottom: .2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.2rem;
   opacity: 1;
 }
 
 #question {
   margin-top: 0;
-  margin-bottom: .5;
+  margin-bottom: 0.5;
   font-size: 1.5rem;
   background-color: rgba(255, 255, 255, 1);
 }
 
-#about-me, #my-name, .contact-me{
-  background-color: rgba(255, 255, 255, .89);
+#about-me,
+#my-name,
+.contact-me {
+  background-color: rgba(255, 255, 255, 0.89);
 }
 
 b {
@@ -346,310 +336,96 @@ b {
 }
 
 li {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
-#cv-pdf{
+#cv-pdf {
   background-color: inherit;
 }
 
-#code-screenshot{
-  height:15rem;
+#code-screenshot {
+  height: 15rem;
   max-width: 100%;
   padding: 1rem;
 }
 
-.project-image{
-  width: auto 
+.project-image {
+  width: auto;
 }
 
-#DragLogic-screenshot, #hermit-crab{
+#DragLogic-screenshot,
+#hermit-crab {
   height: auto;
   max-width: 100%;
 }
 
-.embroidery{
+.embroidery {
   height: 15rem;
   margin: 0;
   padding: 0;
 }
-
-[class*="cv-container"] {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: auto;
-  text-align: left;
-  /* text-align: left; */
+.cv-table {
+  border: none;
 }
 
-[class*="cv-left"]{
-grid-column-start: 1;
-grid-column-end: 2;
-grid-auto-rows: minmax(min-content, max-content);
-
-}
-
-.cv-left-ed2{
-
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.cv-left-ed1{
-
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.cv-left-math{
-
-  grid-row-start: 1;
-  grid-row-end:2;
-}
-
-.cv-left-ling{
-
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.cv-left-logic{
-
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.cv-left-work1{
-
-  grid-row-start: 1;
-  grid-row-end: 2;
-
-}
-
-.cv-left-work2{
-  grid-row-start: 2;
-  grid-row-end: 3;
-
-}
-
-.cv-left-work3{
-
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.cv-left-work4{
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.cv-left-work5{
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
-
-.cv-left-work6{
-  grid-row-start: 6;
-  grid-row-end: 7;
-}
-
-.cv-left-conferences4{
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.cv-left-conferences3{
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.cv-left-conferences2{
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.cv-left-conferences1{
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-
-.cv-left-ec5{
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.cv-left-ec4{
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.cv-left-ec3{
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.cv-left-ec2{
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.cv-left-ec1{
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
-
-.cv-left-proficient{
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.cv-left-familiar{
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-[class*=contents]{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  line-height: 1.15;
-  text-align: left;
-}
-
-.contents-ed1{
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.contents-ed2{
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.contents-math{
-  grid-row-start: 1;
-  grid-row-end: 2;
-
-}
-
-.contents-ling{
-
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.contents-work1{
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.contents-work2{
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.contents-work3{
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.contents-work4{
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.contents-work5{
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
-.contents-work6{
-  grid-row-start: 6;
-  grid-row-end: 7;
-}
-
-.contents-conferences4{
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.contents-conferences3{
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.contents-conferences2{
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.contents-conferences1{
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.contents-ec5{
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.contents-ec4{
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.contents-ec3{
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.contents-ec2{
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.contents-ec1{
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
-
-.contents-proficient{
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.contents-familiar{
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.par-with-spaces{
+.par-with-spaces {
   margin-top: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: 1.5rem;
   font-family: "Noto Sans Symbols Medium", sans-serif;
-
 }
 
-table, th, td {
+#name-mispellings,
+#name-pronunciation {
+  font-size: 1.5rem;
+  font-family: "Noto Sans Symbols Medium", sans-serif;
   border: 1px solid black;
   border-collapse: collapse;
-text-align: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
-table{
+.cv-table {
   margin-left: auto;
   margin-right: auto;
+  border: none;
+  width: 100%;
+}
+.details {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  text-align: right;
+}
+th,
+td {
+  text-align: left;
 }
 
-th, td{
-  padding: .25rem;
+#name-mispellings th,
+#name-mispellings td,
+#name-pronunciation th,
+#name-pronunciation td {
+  border: 1px solid black;
+  text-align: center;
+}
+.contact-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.spectrogram{
+.contact-table th,
+.contact-table td {
+  border: 1px solid black;
+  text-align: center;
+}
+.spectrogram {
   width: 20rem;
 }
 
-#email-pic{
+#email-pic {
   height: 2.8rem;
 }

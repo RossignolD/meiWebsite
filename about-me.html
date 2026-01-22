@@ -1,66 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Mei Rose Connor's website</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.svg" />
+  </head>
 
-</head>
-
-<body class="about-this-site">
+  <body class="about-this-site">
     <div id="about-me">
+      <nav class="flex-container navbar">
+        <div><a href="index.html" class="home-button"> Home</a></div>
+        <div class="dropdown">
+          <button class="dropbtn">My CV</button>
+          <div class="dropdown-content">
+            <a href="interactive-cv.html">Interactive&nbsp;CV</a>
+            <a href="cv-pdf.html">View&nbsp;PDF</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Projects</button>
+          <div class="dropdown-content">
+            <a href="current-projects.html">Current&nbsp;Projects</a>
+            <a href="recent-projects.html">Recent&nbsp;Projects</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="active" class="dropbtn">Mei Rose Connor</button>
+          <div class="dropdown-content">
+            <a href="about-me.html" class="active">About this Site</a>
+            <a href="my-name.html">My Name</a>
+            <a href="contact-page.html">Contact Me</a>
+          </div>
+        </div>
+      </nav>
 
-        <div class="flex-container" class="navbar">
-            <div><a href='index.html' class="home-button"> Home</a></div>
-            <div class="dropdown">
-                <button class="dropbtn">My CV</button>
-                <div class="dropdown-content">
-                    <a href=interactive-cv.html>Interactive&nbsp;CV</a>
-                    <a href="cv-pdf.html">View&nbsp;PDF</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Projects</button>
-                <div class="dropdown-content">
-                    <a href="current-projects.html">Current&nbsp;Projects</a>
-                    <a href="recent-projects.html">Recent&nbsp;Projects</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="active" class="dropbtn">Mei Rose Connor</button>
-                <div class="dropdown-content">
-                    <a href="about-me.html" class="active">About this Site</a>
-                    <a href="my-name.html">My Name</a>
-                    <a href="contact-page.html">Contact Me</a>
-                </div>
-            </div>
+      <header class="header">About this site</header>
+      <main class="main">
+        <div>
+          <p class="par-with-spaces">
+            Mei Rose Connor built this website using HTML, CSS, PHP, and
+            JavaScript. The color scheme was selected using a combination of
+            personal taste and
+            <a
+              href="https://colors.muz.li/palette/72B9CC/50878f/7586cc/72cc7e/508f58"
+              class="hyper"
+              >this color scheme generator.</a
+            >
+            The vector graphics on the Current Projects page were designed by
+            Mei Rose Connor in Inkscape.
+          </p>
+          <p class="par-with-spaces">
+            Nightingale icon by Laymik from
+            <a
+              href="https://thenounproject.com/browse/icons/term/nightingale/"
+              class="hyper"
+              target="_blank"
+              title="Nightingale Icons"
+              >Noun Project</a
+            >
+          </p>
         </div>
-
-        <div class="header">
-            About this site
-        </div>
-        <div class="main">
-            <div>
-                <p class="par-with-spaces">
-                    Mei Rose Connor built this website using HTML, CSS, PHP, and JavaScript. The color scheme was
-                    selected using a combination of personal taste and
-                    <a href="https://colors.muz.li/palette/72B9CC/50878f/7586cc/72cc7e/508f58" class="hyper">this color
-                        scheme generator.</a> The vector graphics on the Current Projects page were designed by Mei Rose Connor in Inkscape.
-                </p>
-                <p class="par-with-spaces">
-                    Nightingale icon by Laymik from
-                    <a href="https://thenounproject.com/browse/icons/term/nightingale/" class="hyper" target="_blank"
-                        title="Nightingale Icons">Noun Project</a>
-                </p>
-            </div>
-        </div>
+      </main>
     </div>
-</body>
+  </body>
+</html>

@@ -1,75 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Mei Rose Connor's website</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js"
-        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="/js/meiShowandHide.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/meiShowandHide.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.svg" />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <div id="homepage">
-        <a href="https://www.poetryfoundation.org/poems/44479/ode-to-a-nightingale">
-            <div id="nightingale">
-                <img src="images/noun-nightingale-2115791.svg"
-                    alt="Hmmm... a nightingale has appeared. Maybe you should click it..."
-                    title="Hmmm... a mysterious nightingale has appeared. Maybe you should click it..." width="10px">
-            </div>
-        </a>
-        <div class="flex-container" class="navbar">
-            <div class="active" class="home-button"><a href='index.html' class="home">Home</a></div>
-            <div class="dropdown">
-                <button class="dropbtn">My CV</button>
-                <div class="dropdown-content">
-                    <a href=interactive-cv.html>Interactive&nbsp;CV</a>
-                    <a href="cv-pdf.html">View&nbsp;PDF</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Projects</button>
-                <div class="dropdown-content">
-                    <a href="current-projects.html">Current&nbsp;Projects</a>
-                    <a href="recent-projects.html">Recent&nbsp;Projects</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Mei Rose Connor</button>
-                <div class="dropdown-content">
-                    <a href="about-me.html">About this Site</a>
-                    <a href="my-name.html">My Name</a>
-                    <a href="contact-page.html">Contact Me</a>
-                </div>
-            </div>
+      <a
+        href="https://www.poetryfoundation.org/poems/44479/ode-to-a-nightingale"
+      >
+        <div id="nightingale">
+          <img
+            src="images/noun-nightingale-2115791.svg"
+            alt="Hmmm... a nightingale has appeared. Maybe you should click it..."
+            title="Hmmm... a mysterious nightingale has appeared. Maybe you should click it..."
+            width="10px"
+          />
         </div>
-        <div class="header">
-            Welcome to Mei Rose Connor's website!
+      </a>
+      <nav class="flex-container navbar">
+        <div class="active home-button">
+          <a href="index.html" class="home">Home</a>
         </div>
-        <div class="flex-container-home">
-            <div id="question">What does the bartender say when a linguist, mathematician, and logician walks into the bar?</div>
-            <button onclick="hideMei(); hideAnswer()" class="button-small"> Click to show/hide the answer.</button>
-            <div> <img id="meipic" src="images/mypic.jpeg" alt="A photograph of Mei Rose Connor">
-            </div>
-            <div id="answer">Good evening, Mei Rose Connor!</div>
+        <div class="dropdown">
+          <button class="dropbtn">My CV</button>
+          <div class="dropdown-content">
+            <a href="interactive-cv.html">Interactive&nbsp;CV</a>
+            <a href="cv-pdf.html">View&nbsp;PDF</a>
+          </div>
         </div>
+        <div class="dropdown">
+          <button class="dropbtn">Projects</button>
+          <div class="dropdown-content">
+            <a href="current-projects.html">Current&nbsp;Projects</a>
+            <a href="recent-projects.html">Recent&nbsp;Projects</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Mei Rose Connor</button>
+          <div class="dropdown-content">
+            <a href="about-me.html">About this Site</a>
+            <a href="my-name.html">My Name</a>
+            <a href="contact-page.html">Contact Me</a>
+          </div>
+        </div>
+      </nav>
+      <header class="header">Welcome to Mei Rose Connor's website!</header>
+      <main class="flex-container-home">
+        <div id="question">
+          What does the bartender say when a linguist, mathematician, and
+          logician walks into the bar?
+        </div>
+        <button
+          onclick="
+            hideMei();
+            hideAnswer();
+          "
+          class="button-small"
+        >
+          Click to show/hide the answer.
+        </button>
+        <div>
+          <img
+            id="meipic"
+            src="images/mypic.jpeg"
+            alt="A photograph of Mei Rose Connor"
+          />
+        </div>
+        <div id="answer">Good evening, Mei Rose Connor!</div>
+      </main>
     </div>
-</body>
+  </body>
+</html>
